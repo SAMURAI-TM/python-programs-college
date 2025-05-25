@@ -1,0 +1,13 @@
+class Adder:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def find_sum(self):
+        return self.a + self.b
+
+# Create object and find sum
+num1 = 10
+num2 = 20
+obj = Adder(num1, num2)
+print("Sum is:", obj.find_sum())

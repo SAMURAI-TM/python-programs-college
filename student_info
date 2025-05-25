@@ -1,0 +1,16 @@
+class Student:
+    def __init__(self, roll, name, age):
+        self.roll = roll
+        self.name = name
+        self.age = age
+
+    def show(self):
+        print("Roll:", self.roll)
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+roll=int(input('enter the roll number-'))
+name=input('enter the name-')
+age=int(input('enter the age-'))
+s1 = Student(roll,name,age)
+s1.show()

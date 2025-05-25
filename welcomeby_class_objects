@@ -1,0 +1,7 @@
+class College:
+    def display_message(self):
+        print("Welcome to Dhemaji Engineering College")
+
+# Create an object of the class
+c = College()
+c.display_message()

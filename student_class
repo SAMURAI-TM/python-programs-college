@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, Id, StudentName, StudentClass):
+        self.Id = Id
+        self.StudentName = StudentName
+        self.StudentClass = StudentClass
+
+    def display(self):
+        print("Student Details:")
+        print("Id:", self.Id)
+        print("Student Name:", self.StudentName)
+        print("Student Class:", self.StudentClass)
+
+
+student1 = Student(50, "tanmoy", "cse 4th sem")
+student1.display()

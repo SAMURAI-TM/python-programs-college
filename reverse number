@@ -1,0 +1,9 @@
+num = input("Enter a number: ")
+
+# Check if the number is negative
+if num.startswith('-'):
+    reversed_num = '-' + num[1:][::-1]
+else:
+    reversed_num = num[::-1]
+
+print("Reversed number:", reversed_num)
