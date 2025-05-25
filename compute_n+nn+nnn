@@ -1,0 +1,12 @@
+# Read input from the user
+n = input("Enter a number: ")
+
+# Compute n + nn + nnn
+nn = n * 2    # 'nn' is the string 'n' repeated twice
+nnn = n * 3   # 'nnn' is the string 'n' repeated three times
+
+# Convert the strings to integers and compute the sum
+result = int(n) + int(nn) + int(nnn)
+
+# Display the result
+print("Result of n + nn + nnn is:", result)
