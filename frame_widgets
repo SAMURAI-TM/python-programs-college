@@ -1,0 +1,17 @@
+from tkinter import *
+
+# Create main window
+root = Tk()
+
+# Red Frame
+frame_a = Frame(root, bg="red")
+frame_a.pack()
+Label(frame_a, text="I'm in Frame A", bg="red", fg="white").pack()
+
+# Yellow Frame
+frame_b = Frame(root, bg="yellow")
+frame_b.pack()
+Label(frame_b, text="I'm in Frame B", bg="yellow", fg="black").pack()
+
+# Show the window
+root.mainloop()
