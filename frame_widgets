@@ -2,7 +2,7 @@ from tkinter import *
 
 # Create main window
 root = Tk()
-
+root.geometry("200x200")
 # Red Frame
 frame_a = Frame(root, bg="red")
 frame_a.pack()
